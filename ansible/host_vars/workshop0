@@ -1,0 +1,8 @@
+ipfs_peer_id: 12D3KooWQUo5TL1pz6nKerthBvX4hvC9e12isPuRAyazogEXrSRG
+ipfs_private_key: CAESQBTmWrG7L5WrH3PEpunY8tyu/plzOwekR7jO1SRkN/Ex2dvaKJRPh5jPX0oObQ0LFVzXwvCjnSvHWaUD/al5Ams=
+
+ipfs_cluster_peername: workshop0
+ipfs_cluster_peer_addr: /dns4/workshop0/tcp/9096/ipfs/12D3KooWCucwRE4Mqt2MAzHPBRkftz9qoWBAbZt2swY5aYozwNYe
+ipfs_cluster_id: 12D3KooWCucwRE4Mqt2MAzHPBRkftz9qoWBAbZt2swY5aYozwNYe
+ipfs_cluster_private_key: CAESQLLo/6OZ8rWG8/9a3PQ7VuW32LG1brthwsLk9nMrqr07LeuqZCI2/31qLBMNH5ZWq4v2sqZQtZNEV55Bi92wSR8=
+

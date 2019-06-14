@@ -1,0 +1,3 @@
+[submodule "ansible-ipfs-cluster"]
+	path = ansible/ansible-ipfs-cluster
+	url = git@github.com:hsanjuan/ansible-ipfs-cluster.git
