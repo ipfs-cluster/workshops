@@ -1,0 +1,8 @@
+- hosts: ipfs
+  roles:
+    - go-arm
+    - ipfs
+    - ipfs-cluster
+  vars:
+    upgrade_go: true
+    go_version: 1.12.5

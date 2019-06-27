@@ -6,24 +6,32 @@ ipfs_storage_max: 100G
 ipfs_bloom_filter_size: 1048576 # 1MB
 ipfs_api_listen: /ip4/127.0.0.1/tcp/5001
 ipfs_fd_max: 4092
-ipfs_connmgr_low_water: 5
-ipfs_connmgr_high_water: 50
+ipfs_connmgr_low_water: 10
+ipfs_connmgr_high_water: 300
 ipfs_use_badger: false
 
 ipfs_cluster_secret: ""
 ipfs_cluster_arch: arm
-ipfs_cluster_version: v0.11.0-rc3
+ipfs_cluster_version: v0.11.0-rc5
 ipfs_cluster_consensus: crdt
 
 ipfs_cluster_state_sync_interval: 1m
 ipfs_cluster_ipfs_sync_interval: 2m
-ipfs_cluster_replication_factor_min: 1
-ipfs_cluster_replication_factor_max: 1
+ipfs_cluster_replication_factor_min: -1
+ipfs_cluster_replication_factor_max: -1
 ipfs_cluster_monitor_ping_interval: 5s
 ipfs_cluster_peer_watch_interval: 5s
 ipfs_cluster_disable_repinning: true
 
-ipfs_cluster_crdt_trusted_peers: ["*"]
+ipfs_cluster_crdt_trusted_peers:
+  - 12D3KooWCucwRE4Mqt2MAzHPBRkftz9qoWBAbZt2swY5aYozwNYe
+  - 12D3KooWEuf2rZFX15jvQVnqcqX7pQSZ4ct4DrvxJBGYoVvXkr8V
+  - 12D3KooWKC5ph5AMAkCXHsbLyu6uLfdx5GZe44EsXvii8ArvMLFU
+  - 12D3KooWQSpBQs5HYXzp1SYntruMPnjM3JgQq9d3vxv89UEyLWF8
+  - 12D3KooWSboPmJHXiEnAr2cqE3H6mo2k7dUcCEH7Ts7PzCZJTBGU
+  - 12D3KooWRDAeHM6iW8cQor3SP5VhbmKAYsTrvrxqG77BxhjNYZ5x
+  - 12D3KooWM782KKo4uqFh8PHJYXBriCcg6WCG5873MnJVWNdC6kfE
+  - 12D3KooWRzm7cxPDEwHFWD2iFm3Vr3U342h7kvEuN2fhJzec6RF1
 
 ipfs_cluster_restapi_http_listen_multiaddress: "/ip4/127.0.0.1/tcp/9094"
 ipfs_cluster_restapi_read_timeout: 30s
