@@ -22,10 +22,10 @@ IPFS Cluster provides two command-line tools:
 ### For skilled Go users (build and install)
 
 ```shell
-git clone git@github.com/ipfs/ipfs-cluster.git
-cd ipfs-cluster
-git checkout v0.11.0-rc6
-make install
+git clone git@github.com:ipfs/ipfs-cluster.git;
+cd ipfs-cluster;
+git checkout v0.11.0-rc6;
+make install;
 ```
 
 ### For others (download pre-compiled binaries)
