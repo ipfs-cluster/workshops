@@ -6,7 +6,7 @@ This is the information page for the IPFS Cluster workshop at the [Web3 Summit 2
 * **Location**: P2P Node in the Hackerspace
 * **Date**: Tuesday 20/8 at 15:00h.
 
-# Workshop agenda
+## Workshop agenda
 
 This will be an hands-on workshop: we will form a local IPFS Cluster, add and
 pin content to multiple IPFS daemons and explain the general architecture of a
