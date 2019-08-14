@@ -1,6 +1,6 @@
-ipfs_peer_id: {{ workshop0_ipfs_peer_id }}
-ipfs_private_key: {{ workshop1_ipfs_private_key }}
+ipfs_peer_id: "{{ workshop0_ipfs_peer_id }}"
+ipfs_private_key: "{{ workshop0_ipfs_private_key }}"
 
 ipfs_cluster_peername: workshop0
-ipfs_cluster_id: {{ workshop0_ipfs_cluster_id }}
-ipfs_cluster_private_key: {{ workshop0_ipfs_cluster_private_key }}
+ipfs_cluster_id: "{{ workshop0_ipfs_cluster_id }}"
+ipfs_cluster_private_key: "{{ workshop0_ipfs_cluster_private_key }}"

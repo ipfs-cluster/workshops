@@ -1,0 +1,14 @@
+- name: uninstall go for upgrade
+  become: yes
+  file:
+    state: absent
+    dest: /usr/local/go
+  when: upgrade_go == true
+
+- name: download Go
+  become: yes
+  unarchive:
+    remote_src: yes
+    src: https://storage.googleapis.com/golang/go{{go_version}}.linux-armv6l.tar.gz
+    dest: /usr/local
+    creates: /usr/local/go
