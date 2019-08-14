@@ -74,6 +74,6 @@ cluster-workshop/
 
 (For people downloading to a folder, prepend commands with `./` (for example `./ipfs-cluster-service`)
 
-1. Run `ipfs-cluster-service init ...TODO...`
+1. Run `ipfs-cluster-service init http://localhost:8080/ipfs/QmNXfo7fw3iMbXL4iqPZcnURSg5EBx82WNYLe8qdadNcK3` (make sure ipfs is running)
 2. Run `ipfs-cluster-service daemon`
-3. TODO
+3. Watch the logs and switch to your other shell to get started with `ipfs-cluster-ctl`!
