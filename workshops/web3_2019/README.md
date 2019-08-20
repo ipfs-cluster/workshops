@@ -5,6 +5,7 @@ This is the information page for the IPFS Cluster workshop at the [Web3 Summit 2
 
 * **Location**: P2P Node in the Hackerspace
 * **Date**: Tuesday 20/8 at 15:00h.
+* **Slides**: [web3.pdf](web3.pdf)
 
 ## Workshop agenda
 
@@ -20,6 +21,8 @@ IPFS Cluster provides two command-line tools:
 * `ipfs-cluster-ctl` to interact with it, add pins etc.
 
 ### For skilled Go users (build and install)
+
+0. Start your `ipfs` daemon and:
 
 ```shell
 git clone git@github.com:ipfs/ipfs-cluster.git;
