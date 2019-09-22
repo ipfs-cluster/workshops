@@ -36,7 +36,7 @@ Please follow the following instructions to install and configure your cluster
 for the workshop:
 
 0. Start your `ipfs` daemon (with the terminal or with IPFS Desktop should be ok).
-1. Create a `cluster-workshop` and download the following files in it.
+1. Create a `cluster-workshop` folder and download the following files in it.
 1. Download `ipfs-cluster-service`:
    1. For Mac download: https://dist.ipfs.io/ipfs-cluster-service/v0.11.0/ipfs-cluster-service_v0.11.0_darwin-amd64.tar.gz
    2. For Linux download: https://dist.ipfs.io/ipfs-cluster-service/v0.11.0/ipfs-cluster-service_v0.11.0_linux-amd64.tar.gz
